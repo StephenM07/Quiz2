@@ -1,0 +1,6 @@
+<h1>Enter your Dad Joke</h1>
+<%= simple_form_for @jokes do |f| %>
+  <%= f.input :joke %>
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>
